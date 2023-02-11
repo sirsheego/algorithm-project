@@ -1,0 +1,11 @@
+sentence = input("Enter a sentence: ")
+sentence_length = len(sentence)
+
+# Check if the last character is a point
+if sentence[sentence_length - 1] == ".":
+    print("The sentence ends with a point.")
+else:
+    print("The sentence does not end with a point.")
+
+    # The number of words in the sentence
+    
